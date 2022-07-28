@@ -84,7 +84,7 @@ function render() {
       // draw
       var primitiveType = gl.TRIANGLES;
       var offset = 0;
-      var count = 3;
+      var count = 3; // three points specify a triangle
       gl.drawArrays(primitiveType, offset, count);
     }
 }
